@@ -1,5 +1,14 @@
 body {
-  background-color: #faf8f1;
-  color: #0a1520;
+  background-color: #c9a936;
+  color: #307fce;
   font-family: 'Poppins', sans-serif;
+}
+
+@font-face {
+  font-family: helloHoney;
+  src: url(public/HelloHoneyPersonalUse-2OEo8.otf);
+}
+
+h1 {
+  font-family: helloHoney, sans-serif;
 }
