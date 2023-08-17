@@ -14,7 +14,10 @@ function App() {
       <h1>Live it, Laugh it, Love it</h1>
       <h2>Your not-yet-personalized LLIT generator</h2>
       <LiveLaughLove liveLaughLoveString={liveLoveLaugh} />
-      <RandomizeBtn liveLaughLoveSetter={setLiveLaughLove} randomWords={randomWords}/>
+      <RandomizeBtn
+        liveLaughLoveSetter={setLiveLaughLove}
+        randomWords={randomWords}
+      />
     </main>
   )
 }
