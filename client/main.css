@@ -1,14 +1,46 @@
 body {
-  background-color: #c9a936;
-  color: #307fce;
+  background-color: #f79fff;
+  color: #fa3f96;
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  min-height: 100vh; /* viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @font-face {
-  font-family: helloHoney;
-  src: url(public/HelloHoneyPersonalUse-2OEo8.otf);
+  font-family: hello;
+  src: url(../public/HelloHoneyPersonalUse-2OEo8.otf);
+}
+
+@font-face {
+  font-family: hands;
+  src: url(../public/HandScript-gxen4.otf);
+}
+
+@font-face {
+  font-family: home;
+  src: url(../public/HomeKitchenScript-GOWKq.ttf);
+}
+
+@font-face {
+  font-family: avoc;
+  src: url(../public/AvocadoCreamy-jEVLO.otf);
 }
 
 h1 {
-  font-family: helloHoney, sans-serif;
+  font-family: hello, sans-serif;
+  font-size: 100px;
+}
+
+h2 {
+  font-family: avoc, sans-serif;
+  font-size: 35px;
+}
+
+h3 {
+  font-family: avoc, sans-serif;
+  font-size: 35px;
 }
