@@ -1,10 +1,9 @@
 interface Props {
-  liveLaughLoveSetter: (val: string) => void
+  liveLaughLoveSetter: () => void
   randomWords: string[]
 }
 
 export default function RandomizeBtn(props: Props) {
-  const setLLL = () => props.liveLaughLoveSetter(props.randomWords[0])
 
-  return <button onClick={setLLL}>Randomize</button>
+  return <button onClick={props.liveLaughLoveSetter}>Randomize</button>
 }
