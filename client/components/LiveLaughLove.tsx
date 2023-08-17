@@ -1,7 +1,12 @@
 interface Props {
   liveLaughLoveString: string
+  image?: string
 }
 
 export default function LiveLaughLove(props: Props) {
-  return <p>I am a placeholder for LiveLaughLove!</p>
+  return (
+    <section>
+      <h3>{props.liveLaughLoveString}</h3>
+    </section>
+  )
 }
