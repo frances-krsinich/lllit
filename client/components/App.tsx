@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import RandomizeBtn from './RandomizeBtn.tsx'
 import LiveLaughLove from './LiveLaughLove.tsx'
+import words from '../data/words.ts'
 
 const LIVE_LAUGH_LOVE = 'Live, Laugh, Love'
 
 function App() {
-  const [randomWords, setRandomWords] = useState(['these', 'are', 'some', 'boilerplate', 'strings', 'REPLACE_ME!', 'l8r'])
+  const [randomWords, setRandomWords] = useState(words)
   const [liveLoveLaugh, setLiveLaughLove] = useState(LIVE_LAUGH_LOVE)
 
   return (

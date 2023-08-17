@@ -1,4 +1,4 @@
-export default [
+const words: string[] = [
   'washing machine',
   'crabs',
   'potato',
@@ -54,3 +54,5 @@ export default [
   '₍˄·͈༝·͈˄*₎◞ ̑̑',
   '👁👄👁💅'
 ]
+
+export default words
