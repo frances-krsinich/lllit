@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import RandomizeBtn from './RandomizeBtn.tsx'
+import LiveLaughLove from './LiveLaughLove.tsx'
 
 const LIVE_LAUGH_LOVE = 'Live, Laugh, Love'
 
@@ -11,6 +12,7 @@ function App() {
     <main>
       <h1>Live it, Laugh it, Love it</h1>
       <RandomizeBtn liveLaughLoveSetter={setLiveLaughLove} randomWords={randomWords}/>
+      <LiveLaughLove liveLaughLoveString={liveLoveLaugh} />
     </main>
   )
 }
