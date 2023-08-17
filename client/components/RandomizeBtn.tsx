@@ -4,5 +4,7 @@ interface Props {
 }
 
 export default function RandomizeBtn(props: Props) {
-  return <p>I am a placeholder!</p>
+  const setLLL = () => props.liveLaughLoveSetter(props.randomWords[0])
+
+  return <button onClick={setLLL}>Randomize</button>
 }
