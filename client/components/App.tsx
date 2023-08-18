@@ -25,17 +25,24 @@ function App() {
     <main>
       <h1>Live it, Laugh it, Love it</h1>
       <h2>Your not-yet-personalized LLLIT generator</h2>
+      <br></br>
+      <br></br>
+      <div id="picture-border">
+        <LiveLaughLove liveLaughLoveString={liveLoveLaugh} image={image} />
+        <br></br>
+        <br></br>
+        <br></br>
+      </div>
+      <br></br>
+      <RandomizeBtn
+        liveLaughLoveSetter={setRandomLLL}
+        randomWords={randomWords}
+      />
       <input
         type="text"
         value={userInput}
         onChange={(e) => setUserInput(e.target.value)}
-        placeholder="Enter your word"
-      />
-
-      <LiveLaughLove liveLaughLoveString={liveLoveLaugh} image={image} />
-      <RandomizeBtn
-        liveLaughLoveSetter={setRandomLLL}
-        randomWords={randomWords}
+        placeholder="Enter optional word"
       />
     </main>
   )
