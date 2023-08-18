@@ -8,6 +8,6 @@ export function replaceRandomWord(original: string, separator: string, replaceme
   return split.join(separator)
 }
 
-function titleCaseString(original: string) {
+export function titleCaseString(original: string) {
   return original.charAt(0).toUpperCase() + original.slice(1)
 }
