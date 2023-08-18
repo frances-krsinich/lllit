@@ -16,7 +16,14 @@ const images = [
   'https://images.unsplash.com/photo-1551849711-b12648f59767?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
   'https://images.unsplash.com/photo-1472746729193-36ad213ac4a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80',
   'https://i.guim.co.uk/img/media/2ff686d2a7b1c1df1226f0c24ff7150e4ac12f61/0_10_4914_2948/master/4914.jpg?width=1200&quality=85&auto=format&fit=max&s=ab206d78062ac78e6b5f2e658eb7b46d',
-  'https://www.shutterstock.com/image-photo/dietbeautiful-young-woman-eating-vegetable-600w-98631656.jpg'
+  'https://www.shutterstock.com/image-photo/dietbeautiful-young-woman-eating-vegetable-600w-98631656.jpg',
+  'https://img.buzzfeed.com/buzzfeed-static/static/2018-09/24/6/campaign_images/buzzfeed-prod-web-05/16-imagenes-de-stock-que-darian-para-hacer-la-pel-2-1792-1537786166-2_dblbig.jpg',
+  'https://i.redd.it/om7d5z4movz91.jpg',
+  'https://preview.redd.it/ukjly14gqs1a1.jpg?width=640&crop=smart&auto=webp&s=f1fe7fd7a7ecf4e5315c36014055f253951a4084',
+  'https://preview.redd.it/0ikqfp5jllt91.jpg?width=640&crop=smart&auto=webp&s=a7539d03f2ce05aac4b4b0418c9579da149bf8f1',
+'https://preview.redd.it/uy46bxqai0fa1.jpg?width=640&crop=smart&auto=webp&s=3a9357d4ec7546742f4f2e73b302a140c77ba0c9',
+'https://images.unsplash.com/photo-1542596594-649edbc13630?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
+  'https://images.unsplash.com/photo-1467647160393-708009aefd5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
 ]
 
 export default images
