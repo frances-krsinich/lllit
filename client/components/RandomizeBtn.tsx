@@ -4,6 +4,5 @@ interface Props {
 }
 
 export default function RandomizeBtn(props: Props) {
-
-  return <button onClick={props.liveLaughLoveSetter}>Randomize</button>
+  return <button onClick={props.liveLaughLoveSetter}>Live, Laugh...???</button>
 }
