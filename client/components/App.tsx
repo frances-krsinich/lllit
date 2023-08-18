@@ -24,7 +24,7 @@ function App() {
   return (
     <main>
       <h1>Live it, Laugh it, Love it</h1>
-      <h2>Your not-yet-personalized LLLIT generator</h2>
+      <h2>Your personalized LLLIT generator</h2>
       <br></br>
       <br></br>
       <div id="picture-border">
